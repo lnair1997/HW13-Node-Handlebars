@@ -3,7 +3,7 @@ const app = express();
 // Set Handlebars.
 const exphbs = require("express-handlebars");
 // Import routes and give the server access to them.
-const routes = require("./controllers/catsController.js");
+const routes = require("./controllers/burgers_controller");
 
 const PORT = process.env.PORT || 8080;
 
@@ -20,5 +20,5 @@ app.set("view engine", "handlebars");
 app.use(routes);
 
 app.listen(PORT, function() {
-  console.log(`Server listening on: http://localhost: ${PORT}`);
+  console.log(`Server listening on: http://localhost:${PORT}`);
 });
