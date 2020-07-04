@@ -20,9 +20,8 @@
     </div>
   </div>
 
-  <br>
-  <hr>
-  <br>
+  <br><hr><br>
+
 {{!-- List of undevoured --}}
   <div class="row">
     <div class="col-md-6">
@@ -30,7 +29,7 @@
       <ul>
         {{#each burgers}}
         {{#unless devoured}}
-        {{> burgers/burger-block devoured=true}}
+        <li class="list-group-item d-flex justify-content-between">{{id}}. {{burger_name}} <button type="button " class="btn btn-success btn-sm btnDevoured" id = {{id}}>Devour</button></li>
         {{/unless}}
         {{/each}}
       </ul>
@@ -41,7 +40,7 @@
       <ul>
         {{#each burgers}}
         {{#if devoured}}
-        {{> burgers/burger-block devoured=false}}
+        <li class="list-group-item d-flex justify-content-between">{{id}}. {{burger_name}}<button type="button " class="btn btn-danger btn-sm deleteBtn" id = {{id}}>X</button></burron></li>
         {{/if}}
         {{/each}}
       </ul>
