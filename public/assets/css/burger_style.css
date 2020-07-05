@@ -1,7 +1,24 @@
 .jumbotron {
-    background-color: teal;
+    background-color: #FFC72C;
+}
+
+body {
+    background-color: #DA291C;
 }
 
 ul {
     padding-left: 0px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.list-group-item {
+    background-color: #DA291C;
+    color: white;
+}
+
+.deleteBtn:hover {
+    background-color: white;
 }
