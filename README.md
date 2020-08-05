@@ -1,14 +1,15 @@
-# HW13-Node-Handlebars
+# HW13-Node-Handlebars 
+![license](https://img.shields.io/badge/license-ISC-GREEN)
 
 ## Description-
 
-- This burger logger is created by using MySQL, Node, Express, Handlebars and a ORM. It follows a MVC design pattern and uses Node and MySQL to query/route data in the app.
+This burger logger is created by using MySQL, Node, Express, Handlebars and a ORM. It follows a MVC design pattern and uses Node and MySQL to query/route data in the app.
 
 ## Table of Contents
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
-  - [License](#license)
   - [Gif Walkthrough](#gif-walkthrough)
+  - [Heroku Link](#Heroku-deploy)
 
 ## Technologies Used:
 
@@ -18,7 +19,6 @@
 4. JQuery
 5. Node
 6. Express
-7. Express-Handlebar
 8. MySQL
 9. Screencastify
 
@@ -29,9 +29,9 @@ npm express-handlebars
 npm mysql
 ```
 
-## License-
-  License used: ![license](https://img.shields.io/badge/license-ISC-GREEN)
-
 ## Gif Walkthrough:
 
 ![Gif Walkthrough](public/assets/img/BurgerGif.gif)
+
+## Heroku Link-
+[https://limitless-woodland-24753.herokuapp.com/](https://limitless-woodland-24753.herokuapp.com/)
