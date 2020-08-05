@@ -44,7 +44,7 @@
         {{#each burgers}}
         {{#if devoured}}
         <li class="list-group-item d-flex justify-content-between">{{id}}. {{burger_name}}
-          <button type="button" class="btn btn-sm deleteBtn" id={{id}}>X</button>
+          <button type="button" class="btn btn-sm deleteBtn" data-id="{{this.id}}">X</button>
         </li>
         {{/if}}
         {{/each}}
